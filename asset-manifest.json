@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sum-quiz/static/css/main.4ffa45f0.chunk.css",
+    "main.js": "/sum-quiz/static/js/main.42d645eb.chunk.js",
+    "main.js.map": "/sum-quiz/static/js/main.42d645eb.chunk.js.map",
+    "runtime-main.js": "/sum-quiz/static/js/runtime-main.f5214baa.js",
+    "runtime-main.js.map": "/sum-quiz/static/js/runtime-main.f5214baa.js.map",
+    "static/js/2.b1812ba4.chunk.js": "/sum-quiz/static/js/2.b1812ba4.chunk.js",
+    "static/js/2.b1812ba4.chunk.js.map": "/sum-quiz/static/js/2.b1812ba4.chunk.js.map",
+    "static/js/3.0ccb6529.chunk.js": "/sum-quiz/static/js/3.0ccb6529.chunk.js",
+    "static/js/3.0ccb6529.chunk.js.map": "/sum-quiz/static/js/3.0ccb6529.chunk.js.map",
+    "index.html": "/sum-quiz/index.html",
+    "static/css/main.4ffa45f0.chunk.css.map": "/sum-quiz/static/css/main.4ffa45f0.chunk.css.map",
+    "static/js/2.b1812ba4.chunk.js.LICENSE.txt": "/sum-quiz/static/js/2.b1812ba4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5214baa.js",
+    "static/js/2.b1812ba4.chunk.js",
+    "static/css/main.4ffa45f0.chunk.css",
+    "static/js/main.42d645eb.chunk.js"
+  ]
+}
