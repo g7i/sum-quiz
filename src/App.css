@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.counter {
+  font-size: 20rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type=number] {
+  outline: none;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+progress[value] {
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+progress[value]::-webkit-progress-value {
+  background-image:
+          -webkit-linear-gradient(-45deg,
+          transparent 33%, rgba(0, 0, 0, .1) 33%,
+          rgba(0,0, 0, .1) 66%, transparent 66%),
+          -webkit-linear-gradient(top,
+          rgba(255, 255, 255, .25),
+          rgba(0, 0, 0, .25)),
+          -webkit-linear-gradient(left, #09c, #f44);
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
 }
